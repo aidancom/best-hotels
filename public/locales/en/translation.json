@@ -1,0 +1,20 @@
+{
+  "bienvenido": "Welcome to the Guest Portal",
+  "espacios": "Spaces",
+  "gastronomia": "Gastronomy",
+  "bienestar": "Well-being",
+  "experiencia": "Experience",
+  "excursiones": "Tours",
+  "actividades": "Activities",
+  "puntos-de-interes": "Points of Interest",
+  "aeropuerto": "Airport",
+  "desc_aeropuerto": "Tenerife South Reina Sofia (26 km away)",
+  "nucleo_urbano": "Closest urban area",
+  "desc_nucleo_urbano": "Adeje (6 km)",
+  "playa": "Closest beach",
+  "desc_playa": "Ajabo Beach (550 m)",
+  "parada_bus": "Closest bus stop",
+  "desc_parada_bus": "Bus lines 471 and 473 (5 min)",
+  "404": "Oops...",
+  "404_informacion": "The requested page does not exist"
+}

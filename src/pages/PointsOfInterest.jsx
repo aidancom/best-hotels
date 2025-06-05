@@ -1,28 +1,37 @@
-import Header from "../components/Header"
-
+import { useTranslation } from 'react-i18next';
+import Header from "../components/Header";
+import { motion } from "framer-motion";
 
 const PointsOfInterest = () => {
+  const { t } = useTranslation();
+
   return (
     <>
-    <Header/>
-    <main className="p-3 space-y-3">
-      <h1 className="text-2xl font-medium">Puntos de interés</h1>
-      <div className="space-y-3">
-        <img src="../public/section_things_to_see.jpg" alt="Experiencias para nuestros clientes" />
-        <div>
-          <p className="font-medium">Aeropuerto</p>
-          <p>Tenerife Sur Reina Sofia (a 26 km)</p>
-          <p className="font-medium">Núcleo urbano más cercano</p>
-          <p>Adeje (6 km)</p>
-          <p className="font-medium">Playa más cercana</p>
-          <p>Playa de Ajabo (550 m)</p>
-          <p className="font-medium">Parada de autobús más cercana</p>
-          <p>Números línea 471 y 473 (5 min)</p>
+      <Header />
+      <motion.main
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.4 }}
+        className="p-3 space-y-3"
+      >
+        <h1 className="text-2xl font-medium">{t("puntos-de-interes")}</h1>
+        <div className="space-y-3">
+          <img src="../public/img/section_things_to_see.jpg" alt={t("puntos-de-interes")} />
+          <div>
+            <p className="font-medium">{t("aeropuerto")}</p>
+            <p>{t("desc_aeropuerto")}</p>
+            <p className="font-medium">{t("nucleo_urbano")}</p>
+            <p>{t("desc_nucleo_urbano")}</p>
+            <p className="font-medium">{t("playa")}</p>
+            <p>{t("desc_playa")}</p>
+            <p className="font-medium">{t("parada_bus")}</p>
+            <p>{t("desc_parada_bus")}</p>
+          </div>
         </div>
-      </div>
-    </main>
+      </motion.main>
     </>
-  )
-}
+  );
+};
 
-export default PointsOfInterest
+export default PointsOfInterest;

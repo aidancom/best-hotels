@@ -1,15 +1,22 @@
 import Header from "../components/Header"
+import { motion } from "framer-motion"
 
 
 const Gastronomy = () => {
   return (
     <>
     <Header/>
-    <main className="p-3 space-y-5">
+    <motion.main 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.4 }}   
+      className="p-3 space-y-5"
+    >
       <div className="flex justify-center">
-        <img src="./public/under_construction.png" alt="En construccón" className="w-2/3" />
+        <img src="./public/img/under_construction.png" alt="En construccón" className="w-full md:w-1/3" />
       </div>
-    </main>
+    </motion.main>
     </>
   )
 }

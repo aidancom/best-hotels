@@ -1,0 +1,20 @@
+{
+  "bienvenido": "Bienvenido al Portal del Huésped",
+  "espacios": "Espacios",
+  "gastronomia": "Gastronomía",
+  "bienestar": "Bienestar",
+  "experiencia": "Experiencia",
+  "excursiones": "Excursiones",
+  "actividades": "Actividades",
+  "puntos-de-interes": "Puntos de interés",
+  "aeropuerto": "Aeropuerto",
+  "desc_aeropuerto": "Tenerife Sur Reina Sofia (a 26 km)",  
+  "nucleo_urbano": "Núcleo urbano más cercano",
+  "desc_nucleo_urbano": "Adeje (6 km)",
+  "playa": "Playa más cercana",
+  "desc_playa": "Playa de Ajabo (550 m)",
+  "parada_bus": "Parada de autobús más cercana",
+  "desc_parada_bus": "Números línea 471 y 473 (5 min",
+  "404": "Ups...",
+  "404_informacion": "The requested page does not exist"
+}
