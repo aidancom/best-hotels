@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <>
-    {location?.pathname === '/' ? ( // Dependiendo del path cargara un header u otro
+    {location?.pathname === '/' ? (
       <motion.header       
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

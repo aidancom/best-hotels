@@ -39,7 +39,7 @@ const App = () => {
             <Experience />
           }/>
          
-          <Route path='experiencia/:sub' element={  // Para no crear todas las subpaginas, creamos una unica ruta qque vaya a un componente el cual cambiara dependiendo de la url
+          <Route path='experiencia/:sub' element={
             <SubExperience />
           }/>
           <Route path='*' element={

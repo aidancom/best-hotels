@@ -5,7 +5,7 @@ import PointsOfInterest from '../pages/PointsOfInterest';
 import NotFound from '../pages/NotFound';
 
 const SubExperience = () => {
-  const { sub } = useParams(); // Extraemos el parametro sub para pasarlo al switch y, de esta forma, cargar un componente dependiendo del valor
+  const { sub } = useParams(); // Extraemos sub para pasarlo al switch y, de esta forma, cargar un componente dependiendo del parametro
 
   switch (sub) {
     case 'excursiones':
