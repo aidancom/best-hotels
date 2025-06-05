@@ -8,8 +8,8 @@ import { useTranslation } from 'react-i18next'
 const Home = () => {
 
   const { t } = useTranslation();
-  const styledLi = "bg-white mt-3 rounded p-1 uppercase font-medium flex"
-  const styledLink = "flex items-center gap-2 w-full"
+  const styledLi = 'bg-white mt-3 rounded p-1 uppercase font-medium flex'
+  const styledLink = 'flex items-center gap-2 w-full'
 
   return (
     <motion.div
@@ -29,23 +29,47 @@ const Home = () => {
           <nav>
             <ul>
               <li className={styledLi}>
-                <Link to="/espacios" className={styledLink}>
-                  <FontAwesomeIcon icon={faBuilding} className="h-5 w-5" /> {t('espacios')}
+                <Link 
+                  to='/espacios' 
+                  className={styledLink}
+                >
+                  <FontAwesomeIcon 
+                    icon={faBuilding} 
+                    className='h-5 w-5' 
+                  /> {t('espacios')}
                 </Link>
               </li>
               <li className={styledLi}>
-                <Link to="/gastronomia" className={styledLink}>
-                  <FontAwesomeIcon icon={faMugSaucer} className="h-5 w-5" /> {t('gastronomia')}
+                <Link 
+                  to='/gastronomia' 
+                  className={styledLink}
+                >
+                  <FontAwesomeIcon 
+                    icon={faMugSaucer} 
+                    className='h-5 w-5' 
+                  /> {t('gastronomia')}
                 </Link>
               </li>
               <li className={styledLi}>
-                <Link to="/bienestar" className={styledLink}>
-                  <FontAwesomeIcon icon={faBath} className="h-5 w-5" /> {t('bienestar')}
+                <Link 
+                  to='/bienestar' 
+                  className={styledLink}
+                >
+                  <FontAwesomeIcon 
+                    icon={faBath} 
+                    className='h-5 w-5' 
+                  /> {t('bienestar')}
                 </Link>
               </li>
               <li className={styledLi}>
-                <Link to="/experiencia" className={styledLink}>
-                  <FontAwesomeIcon icon={faRocket} className="h-5 w-5" /> {t('experiencia')}
+                <Link 
+                  to='/experiencia' 
+                  className={styledLink}
+                >
+                  <FontAwesomeIcon 
+                    icon={faRocket} 
+                    className='h-5 w-5' 
+                  /> {t('experiencia')}
                 </Link>
               </li>
             </ul>
