@@ -18,7 +18,7 @@ const PointsOfInterest = () => {
         <h1 className='text-2xl font-medium'>{t('puntos-de-interes')}</h1>
         <div className='space-y-3'>
           <img 
-            src='../public/img/section_things_to_see.jpg' 
+            src='../img/section_things_to_see.jpg' 
             alt='Cosas que ver' 
           />
           <div>

@@ -22,7 +22,7 @@ const Experience = () => {
       <h1 className='text-2xl font-medium'>{t('experiencia')}</h1>
       <div className='space-y-3'>
         <img 
-          src='../public/img/section_experience.jpg' 
+          src='../img/section_experience.jpg' 
           alt='Experiencias para nuestros clientes' />
         <ul className='pl-10 space-y-2 list-disc'>
           <li>

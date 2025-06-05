@@ -15,7 +15,7 @@ const Spaces = () => {
     >
       <div className='flex justify-center'>
         <img 
-          src='./public/img/under_construction.png' 
+          src='./img/under_construction.png' 
           alt='En construccón' 
           className='w-full md:w-1/3' 
         />

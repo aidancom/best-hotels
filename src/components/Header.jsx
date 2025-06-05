@@ -22,7 +22,7 @@ const Header = () => {
     >
       <img 
         className='w-2/4 lg:w-1/5' 
-        src='/public/img/logo_best_hotels.png' 
+        src='/img/logo_best_hotels.png' 
         alt='Logo Best Hotels' 
       />
       <select 
@@ -52,7 +52,7 @@ const Header = () => {
         <Link to='/'>
           <img 
             className='w-10' 
-            src='/public/img/icon_best_hotels.png' 
+            src='/img/icon_best_hotels.png' 
             alt='Logo Best Hotels' 
           />
         </Link>
