@@ -17,7 +17,7 @@ const Home = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.4 }} 
-      className='bg-[url(../img/background.jpg)] h-screen bg-cover bg-no-repeat p-5'
+      className='bg-[url(../img/background.jpg)] bg-center h-screen bg-cover bg-no-repeat p-5'
     >
       <Header/>
       <main className='flex justify-center'>
