@@ -20,11 +20,14 @@ const Header = () => {
       transition={{ duration: 0.4 }}  
       className='flex items-start justify-center'
     >
-      <img 
-        className='w-2/4 lg:w-1/5' 
-        src='/img/logo_best_hotels.png' 
-        alt='Logo Best Hotels' 
-      />
+      <div className='flex justify-center'>
+        <img 
+          className='w-2/4 lg:w-1/5' 
+          src='/img/logo_best_hotels.png' 
+          alt='Logo Best Hotels' 
+        />
+      </div>
+
       <select 
         className='border border-black bg-white' 
         name='languages' 
@@ -41,7 +44,7 @@ const Header = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.4 }}  
-        className='flex items-center justify-between bg-black p-1'
+        className='flex items-center justify-between bg-black py-1 px-2'
       >
         <button 
           className='cursor-pointer' 

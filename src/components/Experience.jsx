@@ -30,7 +30,7 @@ const Experience = () => {
               to='/experiencia/excursiones' 
               element={<Tours/>}
             >
-              <span className='text-[#2d7a58]'>{t('experiencia')}</span>
+              <span className='text-[#2d7a58]'>{t('excursiones')}</span>
             </Link>
           </li>
           <li>
@@ -38,7 +38,7 @@ const Experience = () => {
               to='/experiencia/actividades' 
               element={<Activities/>}
             >
-              <span className='text-[#2d7a58]'>{t('excursiones')}</span>
+              <span className='text-[#2d7a58]'>{t('actividades')}</span>
             </Link>
           </li>
           <li>
